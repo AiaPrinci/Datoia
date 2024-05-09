@@ -22,4 +22,8 @@ const click = () => {
     });
 };
 
+bodyContainer.addEventListener('click', () => {
+    boxLayer.style.visibility = 'hidden';
+})
+
 click();
